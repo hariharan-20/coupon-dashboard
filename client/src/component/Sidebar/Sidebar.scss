@@ -1,0 +1,37 @@
+.SidebarContainer {
+    background-color: #163A45;    
+    color: #FFFFFF;
+    padding: 2%;    
+    height: 100vh;    
+    min-width: 6vw;
+    max-width: 20vw;
+    transition: 1s all;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    width: 18%;
+    .SidebarContent{
+        position: absolute;
+        width: 200px;
+    }
+
+    .SidebarHeader{
+        margin-bottom: 40%;  
+    }
+    .SidebarItem{
+        margin-bottom: 25%;
+        .SidebarItemText{
+            padding-left: 2.3vw;    
+            // transition: 5s display ease-in-out; 
+            cursor: pointer;                   
+        }
+    }
+    .HeaderIcon{
+        width: 15%;
+    }
+    .ItemIcon{
+        width:13%;
+        cursor: pointer;        
+    }
+
+}

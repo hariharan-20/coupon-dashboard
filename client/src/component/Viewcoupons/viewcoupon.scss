@@ -1,0 +1,102 @@
+.modal-wrapper{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+     
+}
+.modal-backdrop{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.3);
+}
+.box-modal{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height:100%;
+    width: 30%;
+    overflow-y: auto;
+  
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    z-index: 20;
+}
+.f{
+    display:flex;
+    flex-direction:column;
+    width: 50%;
+    text-align: left;
+}
+.container-2{
+    position: relative;
+    img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    height: 150px;
+    width:100%;
+
+    p{
+        border: 1px dotted;
+        width: 150px;
+        // padding:10px;
+        text-align: center;
+        left: 30%;
+        top: 40%;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        font-family:  normal normal 600 26px/60px Poppins;
+        position: absolute;
+    }
+    h1{
+        
+        color: black;
+        font-size: 18px;
+        left: 93%;
+        top: 12%;
+        cursor: pointer;
+        position: absolute;
+
+    }
+}
+.boxes{
+   
+    padding: 5%;
+}
+.content-css{
+    display: flex;
+    flex-direction: row;
+  
+   
+    
+    span{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        width:40%;
+    }
+    p{
+        // padding-left: 5%;
+        // text-align: center;
+        width: 200px;
+    }
+}
+.viewcouponbut{
+    margin-left: 40%;
+    background-color: #163A45;
+    color: white;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 5px;
+    font-size: 13px;
+    border: none;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thank You</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+
+            html{
+                font-size: 62.5% !important;
+            }
+            .email-body{
+                width: 70%;
+                margin: 0 auto;
+                font-family: "Poppins", sans-serif;
+            }
+            .section1>img{
+                width: 15%;
+                margin-left: 42%;
+            }
+            .section2>img{
+                width: 100%;
+            }
+            .section3{
+                background-color: #f5f5f0;
+                text-align: center;
+            }
+            .section3>h3{
+                color: #ff6600;
+                font-size: 3.0rem;
+                padding-top: 2%;
+                margin-top: 0%;
+            }
+            .section3>p{
+                font-size: 1.8rem
+            }
+            .section4{
+                background-image: url('/images/4.png');
+                background-size: cover;
+            }
+            .section4>div{
+                padding-top: 8%;
+                padding-bottom: 15%;
+            }
+            .section4>div>p{
+                display: inline;
+            }
+            .section4>div>p:nth-of-type(1){
+                color: #b3b300;
+                font-size: 5.5rem;
+                /* margin: 5%; */
+                font-weight: 600;
+                padding: 2% 4% 2% 11%;
+            }
+            .section4>div>p:nth-of-type(2){
+                padding-left: 2%;
+                font-size: 2.1rem;
+                font-weight: 700;
+            }
+            .section5>p{
+                text-align: center;
+                font-size: 1.9rem;
+                padding-top: 1%;
+            }
+            .section6{
+                display: flex;
+            }
+            .section6 h3{
+                font-size: 2rem;
+            }
+            .section6 img{
+                width: 17%;
+            }
+            .section6>div{
+                width: 50%;
+            }
+            .section6>div:nth-of-type(2){
+                margin-left: 30%;
+                margin-top: 7%;
+            }
+            .section6 p{
+                font-size: 1.5rem;
+            }
+            @media only screen and (max-width: 1290px){
+                html{
+                    font-size: 52% !important;
+                }
+            }
+            @media only screen and (max-width: 1100px){
+                html{
+                    font-size: 42% !important;
+                }
+            }
+            @media only screen and (max-width: 952px){
+                html{
+                    font-size: 38% !important;
+                }
+            }
+            @media only screen and (max-width: 952px){
+                html{
+                    font-size: 37% !important;
+                }
+            }
+            @media only screen and (max-width: 768px){
+                html{
+                    font-size: 35.5% !important;
+                }
+                .section1>img{
+                    width: 16%;
+                }
+                .section6>div:nth-of-type(2){
+                    margin-left: 8%;
+                    margin-top: 10%;
+                }
+            }
+            @media only screen and (max-width: 720px){
+                html{
+                    font-size: 32% !important;
+                }
+            }
+            @media only screen and (max-width: 675px){
+                html{
+                    font-size: 29% !important;
+                }
+            }
+            @media only screen and (max-width: 610px){
+                html{
+                    font-size: 25% !important;
+                }
+            }
+            @media only screen and (max-width: 580px){
+                html{
+                    font-size: 26% !important;
+                }
+            }
+            @media only screen and (max-width: 555px){
+                html{
+                    font-size: 25% !important;
+                }
+            }
+            @media only screen and (max-width: 555px){
+                html{
+                    font-size: 22% !important;
+                }
+            }
+            @media only screen and (max-width: 425px){
+                html{
+                    font-size: 20% !important;
+                }
+                .section1>img{
+                    width: 30%;
+                    margin-left: 38%;
+                }
+                .section6>div:nth-of-type(2){
+                    margin-left: 4%;
+                    margin-top: 7%;
+                }
+                .section6 h4{
+                    margin-bottom: 0%;
+                }
+            }
+            @media only screen and (max-width: 375px){
+                html{
+                    font-size: 16% !important;
+                }
+            }
+            @media only screen and (max-width: 320px){
+
+                html{
+                    font-size: 12% !important;
+                }
+                /* .section3>h3{
+                    font-size: 14px;
+                }
+                .section3>p,.section5>p{
+                    font-size: 9px;
+                }
+                .section4>div>p:nth-of-type(1){
+                    font-size: 14px;
+                }
+                .section4>div>p:nth-of-type(2){
+                    font-size: 8px;
+                }
+                .section6 p{
+                    font-size: 8px;
+                } */
+                .section6 img{
+                    width: 16%;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="email-body">
+            <div class="section1">
+                <img src="/images/logoblack.png"> alt="Verzeo-logo">
+            </div>
+            <div class="section2">
+                <img src="/images/Thank-You.png">
+            </div>
+            <div class="section3">
+                <h3>Dear Student,</h3>
+                <p>
+                    Thank you for registering your <%- forProgram %> Program- <%- forCourse %> Course  with us.
+                </p>
+                <p style="margin-bottom: 0%;">Please Use this <strong>coupon code</strong></p>
+            </div>
+            <div class="section4">
+                <div>
+                <p><%- couponCode %></p>
+                <p>Use this get Rs<%- discount %>/- off</p>
+                </div>
+            </div>
+            <div class="section5">
+                <p>to get an discount of <%- discount %>/- on your pending payment.</p>
+            </div>
+            <div class="section6">
+                <div>
+                    <h3>Verzeo</h3>
+                    <p>3rd Floor, 14th Cross Rd, Sector 6, HSR Layout, Bengaluru, Karnataka-560102</p>
+                    <p><a href="mailto:support@verzeo.com"> support@verzeo.com</a> +91-8360682123</p>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/verzeo.leadanywhere/"><img src="/images/facebook.png"></a>
+                    <a href="https://t.me/verzeoedutech"><img src="/images/telegram.png"></a>
+                    <a href="https://www.linkedin.com/company/verzeo/?originalSubdomain=in"><img src="/images/linkedin.png"></a>
+                    <a href="https://www.instagram.com/verzeo/?hl=en"><img src="/images/insta.png"></a>
+                    <a href="https://www.youtube.com/channel/UCirdP2dZbpyWjtIxgzMD_rg"><img src="/images/youtube.png"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

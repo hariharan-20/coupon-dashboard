@@ -1,0 +1,199 @@
+// .coupon-container{
+//     height: 100vh;
+//     background-color: #FAFBFF;
+//     width: 50%;
+//     border:1px solid #163A45;
+// }
+.container-1{
+    background-image: url("../../assets/couponimg.png");
+    height: 100px;
+    width: 100%;
+    p{
+        text-align: center;
+        // padding-top: 15%;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        font-family:  normal normal 600 26px/60px Poppins;
+    }
+    h1{
+        margin-left: 94%;
+        color: white;
+        font-size: 15px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+}
+.inputcheckbox>label:nth-child(1){
+    
+    // display: flex;
+    // flex-direction: row;
+}
+.checklabel{
+    padding-left: 10px;
+    margin-right: 20px;
+}
+.form-css{
+//    padding:10% 12%;
+//    text-align: center;
+//    margin:6%;
+margin-top: 10%;
+padding-left: 10%;
+
+}
+.inputcss{
+    
+    display: flex;
+    flex-direction: column;
+    label{
+        font-weight: 500;
+        color: black;
+        font-size: 13px;
+    }
+    
+}
+button{
+    height: 2rem;
+    width: 5rem;
+    background-color: #1EB14C;
+    color: #DEDEDE;
+    box-shadow: 0px 3px 10px #82828229;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+.input{
+    margin-bottom: 10px;
+    padding-left: 5px;
+    height: 2.5rem;
+    width: 70%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 3px 7px #82828229;
+    :focus{
+        outline: none;
+    }
+}
+
+.select{
+  display: flex;
+  align-items: center;
+}
+
+.inputs{
+    margin: 10px;
+    padding-left: 5px;
+    height: 2rem;
+    width: 40%;
+   
+    box-shadow:0px 3px 10px #82828229;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    :focus{
+        outline: none;
+    }
+}
+ #chooseProgSelect, #chooseProgSelect1{
+    width: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+ }
+
+ #chooseProgInput{
+    width: 50%;
+    margin-right: 10px;
+ }
+
+
+.inputcss1{
+    
+    
+    margin-top: 30px;
+    
+    button{
+        height: 2rem;
+        width: 5rem;
+        background-color: white;
+        border: 1px solid #163A45;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+}
+#confirm{
+    background-color: #163A45;
+    color: white;
+    margin-left: 30%;
+}
+.modal-wrapper{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+     
+}
+.modal-backdrop{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.3);
+    ::-webkit-scrollbar {
+        width: 10px;
+       
+    }            
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+        height: 10px;
+    }
+            
+    ::-webkit-scrollbar-thumb {
+        background: #5471E8; 
+        border-radius: 10px;
+        height: 10px;
+    } 
+}
+.boxmodal{
+    position: relative;
+    top:50%;
+    left:50%;
+    right: 0;
+    transform: translate(-50%,-50%);
+    height:100%;
+    width: 30%;
+    overflow-y: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    z-index: 10;
+    animation-name: example;
+    animation-duration: 4s;
+    
+    // animation-direction: reverse;
+    // @keyframes example {
+    //     0%   { right:200px;top:0px }
+    //     25%  { right:20px}
+    //     50%  { right:60px}
+    //     75%  { right:100px}
+    //     100% { right:200px}
+    // }
+   
+}
+
+#endDate{
+    display: none;
+}
+
+// input[type = date] {
+//     display: none;
+// }
+
+.SubmitBtnDiv{
+    text-align: center;    
+    #SubmitBtn{
+        width: 50%;
+        margin: 10px;
+    }
+}

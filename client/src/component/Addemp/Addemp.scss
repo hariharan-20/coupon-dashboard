@@ -1,0 +1,102 @@
+.modal-wrapper{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+     
+}
+.modal-backdrop{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.3);
+}
+.box-modals{
+    position: relative;
+    top:50%;
+    left:50%;
+    right: 0;
+    transform: translate(-50%,-50%);
+    height: 50%;
+    width: 50%;
+    overflow-y: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    z-index: 10;
+    animation-name: example;
+    animation-duration: 4s;
+
+}
+.header{
+    height: 10vh;
+    background-color: #163A45;
+    p{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+     padding: 2%;
+    }
+}
+
+.col-1{
+ padding:5%;
+ 
+}
+.col-2{
+    text-align: center;
+    margin-left: 90px;
+    padding:4%;
+   
+}
+.coldata{
+   
+    text-align: center;
+    p{
+        height:2.5rem ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 400;
+    }
+    input{
+        margin-bottom: 10px;
+        height: 2.5rem;
+        width: 25rem;
+        border: none;
+        outline: none;
+        box-shadow: 0px 3px 7px #82828229;
+    }
+    select{
+        height: 2.5rem;
+        width: 25rem;
+        border: none;
+        outline: none;
+        box-shadow: 0px 3px 7px #82828229;
+        margin-top: 15px;
+    }
+}
+
+
+.conta{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.buttton{
+    display: flex;
+    margin-top: 200px;
+    width: 30%;    
+    justify-content: space-between;
+    button{
+        margin-left: -20px;
+        height: 2rem;
+        width: 5rem;
+        background-color: white;
+        border: 1px solid #163A45;
+        border-radius: 5px;
+        font-size: 13px;
+
+    }
+}

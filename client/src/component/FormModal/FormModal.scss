@@ -1,0 +1,94 @@
+.SignInFormContainer {    
+    // height: 100vh;    
+    max-width: 55vw;
+    min-width: 30vw;
+    margin: 10% 20%;
+    h3{
+        text-transform: capitalize;
+        width: 80%  ;
+        margin: 2% 0;
+        font-weight: 700;
+    }
+    p{
+        color: #3E3E3EBF;
+    }
+    .SignInFormRow{        
+        min-height: 60vh;
+        // padding: 4%;
+        border: 1px solid #DEDEDE;
+        box-shadow: 0px 17px 76px #82828229;
+        border-radius: 12px;
+    }
+    .SignInCol {
+        max-width: 30vw; 
+    }
+    .LeftPanel {
+        padding: 3% 5%;
+        margin: auto;
+
+        .form-control {
+            margin: 5% 0;
+            font-size: 15px;
+            color: #808080;
+            border: 1px solid #DEDEDE;
+            font-weight: 600;
+        }
+        .form-control:focus{
+            box-shadow: none;
+        }
+        .ForgotPassDiv{
+            display: flex;
+            justify-content: space-between;
+            margin: 4% 0;
+            font-weight: 500;
+
+            .ForgotLabel {
+                color: #2D70DC;
+                   cursor: pointer;
+            }
+        }
+        .btn {
+            width: 100%;
+            height: 40px;
+            border: none;
+            border-radius: 2px;
+            background: transparent linear-gradient( 400deg, #163A45 0%, #040C0E 100%) 0% 0% no-repeat padding-box;
+        }
+        .btn-primary:not(:disabled):not(.disabled):active, .btn:focus {
+            border: none;
+            box-shadow: none;
+        }
+    }
+    .RightPanel{
+        background: url('../../assets/form-modal-bg.svg');
+        background-size: cover;    
+        border-radius: 0 8px 8px 0;
+        .textTransiction{
+            margin: 6vh auto;
+            color: #FFFFFF;
+            font-size: 25px;
+            width: 15vw;
+            font-weight: 500;        
+
+            -webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -ms-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;        
+            .span {
+                color: #E5763C;
+                min-height: -5vh;
+                padding-left: 4px;
+            }
+        }        
+        .formLogo{
+            text-align: right;
+            height: 20vh;            
+            padding-top: 6vh;
+            padding-right: 2vw;   
+            img{
+                width: 5vw;
+            }      
+        }
+    }
+}
